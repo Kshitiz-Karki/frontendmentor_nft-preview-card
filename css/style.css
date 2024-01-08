@@ -26,13 +26,14 @@ img{
   border-radius: 1rem;
 }
 
-h1{
+a{
+  text-decoration: none;
   color: var(--white);
 }
 
-h1:hover{
+a:hover{
   color: var(--cyan);
-  cursor: pointer;
+
 }
 
 h2, h3{
@@ -48,6 +49,7 @@ h2{
 h3{
   color: var(--soft_blue);
 }
+
 
 footer{
   margin-top: 10px;
@@ -98,7 +100,6 @@ p{
 
 .equilibrium-img__overlay:hover{
   opacity: 1;
-  cursor: pointer;
 }
 
 .row{
@@ -129,5 +130,4 @@ p{
 
 .creator:hover{
   color: var(--cyan);
-  cursor: pointer;
 }
